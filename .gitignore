@@ -1,7 +1,8 @@
-#Untracked Unity generated + build folders
+#Untracked Unity generated + build/creation folders
 /[Bb]uild*/*
 /Library/*
 /Temp/*
+/ArtCreation/*
 
 #Visual Studio Solution related
 /obj/*
