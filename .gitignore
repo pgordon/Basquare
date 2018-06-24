@@ -1,0 +1,11 @@
+#Untracked Unity generated + build folders
+/[Bb]uild*/*
+/Library/*
+/Temp/*
+
+#Visual Studio Solution related
+/obj/*
+/Packages/*
+*.csproj
+*.sln
+.vs/*
