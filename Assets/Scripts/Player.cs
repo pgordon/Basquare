@@ -2,6 +2,8 @@
 
 public class Player : MonoBehaviour
 {
+    private int playerScore = 0;
+
     [SerializeField]
     private float velocity = 1f;
     [SerializeField]
@@ -31,6 +33,18 @@ public class Player : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && onGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpAmount);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Collision");
+        Coin c = collision.otherCollider.GetComponent<Coin>();
+        if(c != null)
+        {
+            Debug.Log("COIN");
+            playerScore++;
+            c.Collected();
         }
     }
 }
