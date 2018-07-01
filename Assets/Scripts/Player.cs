@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(velocity, rb.velocity.y);
+        rb.velocity = new Vector2(velocity, rb.velocity.y); // https://answers.unity.com/questions/408072/how-to-add-force-or-velocity-to-the-rigid-body.html
         onGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         if(Input.GetMouseButtonDown(0) && onGround)
         {
