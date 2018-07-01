@@ -38,11 +38,10 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision");
-        Coin c = collision.otherCollider.GetComponent<Coin>();
+        Coin c = collision.gameObject.GetComponent<Coin>();
+        
         if(c != null)
         {
-            Debug.Log("COIN");
             playerScore++;
             c.Collected();
         }
