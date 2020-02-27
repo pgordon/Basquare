@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && onGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpAmount);
+
+            //rb.AddForce(new Vector2(0f, jumpAmount));
         }
     }
 
