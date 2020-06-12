@@ -2013,7 +2013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4249688264618140, guid: b7abdb7f68ea0c840b1c0a08fd96d1ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08127831
+      value: -0.113
       objectReference: {fileID: 0}
     - target: {fileID: 4249688264618140, guid: b7abdb7f68ea0c840b1c0a08fd96d1ed, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2049,6 +2049,10 @@ PrefabInstance:
       propertyPath: scoreDisplay
       value: 
       objectReference: {fileID: 1905781414}
+    - target: {fileID: 4032930366257470, guid: b7abdb7f68ea0c840b1c0a08fd96d1ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.471
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7abdb7f68ea0c840b1c0a08fd96d1ed, type: 3}
 --- !u!1001 &1866494392
