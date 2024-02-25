@@ -3,10 +3,12 @@
 /Library/*
 /Temp/*
 /ArtCreation/*
+/Logs/*
+/UserSettings/*
 
 #Visual Studio Solution related
 /obj/*
-/Packages/*
 *.csproj
 *.sln
 .vs/*
+.vsconfig
